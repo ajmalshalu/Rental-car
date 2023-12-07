@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Source+Sans+Pro&family=Yellowtail&display=swap');
+body{
+    /* background: linear-gradient(132deg, rgb(249, 202, 120) 0.00%, rgb(212, 206, 169) 50.00%, rgb(172, 192, 191) 100.00%); */
+     /* background: linear-gradient(45deg, red, blue); */
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ /* body::after{
+    content: '';
+     position: absolute;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+     opacity: 0.7;
+     z-index: -1;
+  } */
+ .error{
+    border:solid red !important;
+ }
+ .success{
+    border:solid green !important;
+ }
+
+body #Outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+body #Inner{
+    background-color: white;
+    padding: 15px;
+    margin-top:4% ;
+    border-radius: 12px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 15px rgb(54 52 52);
+    
+}
+#header{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-top: -25px;
+}
+.h2{
+    font-family:'Neucha', cursive;
+    margin-top: -15px;
+    color: grey;
+    font-size: 15px;
+
+}
+#Outer #Inner .input{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: px; */
+
+}
+ #Outer #Inner .input input{
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(193, 195, 202);
+    background-color: rgb(222, 239, 249);
+}
+.input6{
+    font-size: 12px;
+}
+
+.input6 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ #Outer #Inner .input6 button input{
+    width: 45%;
+    color: white;
+    background-color: rgb(50, 91, 237);
+    border: none;
+    margin-top: 20px;
+    height: 37px;
+    font-size: 21px;
+    border: none;
+}
+
+
+ #Outer #Inner .input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    
+}
+
+ #Outer #Inner .input1 input{
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    border: 1px solid rgb(193, 195, 202);
+    background-color: rgb(233, 236, 239);
+
+}
+
+ .input3{
+    margin-top: -8px;
+    height: 20%;
+    margin-left: 10px;
+}
+.input31{
+    height:30px;
+    width:31.8%;
+    background-color:rgb(222, 239, 249);
+    border-radius: 4px;
+    border: 1px solid rgb(193, 195, 202);
+    font-size: 15px;
+    margin-left: 3px;
+}
+.input32{
+    height:30px;
+    width:31.8%;
+    background-color:rgb(222, 239, 249);
+    border-radius: 4px;
+    border: 1px solid rgb(193, 195, 202);
+    font-size: 15px;
+    margin-left: 3px;
+}
+.input33{
+    height:30px;
+    width:31.8%;
+    background-color:rgb(222, 239, 249);
+    border-radius: 4px;
+    border: 1px solid rgb(193, 195, 202);
+    font-size: 15px;
+    margin-left: 3px;
+}
+.input3 input{
+   width:232%;
+   border: none;
+   box-sizing: border-box;
+   
+}
+.input4{
+    margin-top: -30px;
+    margin-left: 8px;
+    margin-right:30px
+}
+
+.input2{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#Outer #inner .input5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    float: right;
+    margin-top: px;
+    width: 50%;
+    
+}
+ #Outer #Inner .input5 button{
+    width: 70%;
+    margin-left: 15%;
+
+    
+
+}
+
+ #Outer #Inner .input7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    margin-top: px;
+    width: 50%;
+}
+ #Outer #Inner .input7 button{
+    width: 90%;
+}
+
+button{
+    margin-top: 20px;
+    height: 30px;
+    /* background-color: rgb(12, 188, 44); */
+    border-radius: 4px;  
+    border: none; 
+    height: 35px;
+    font-size: 16px;
+ }
+
+ .px p{
+    text-align:center !important;
+    color:red !important;
+ }
